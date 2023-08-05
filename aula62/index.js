@@ -1,4 +1,4 @@
-function product(name, price, stock) {
+function Product(name, price, stock) {
     this.name = name;
     this.price = price;
 
@@ -25,7 +25,5 @@ function product(name, price, stock) {
     })
 }
 
-const p1 = new product("Camiseta", 20, 3);
+const p1 = new Product("Camiseta", 20, 3);
 console.log(p1);
-
-// block 16 47:25
